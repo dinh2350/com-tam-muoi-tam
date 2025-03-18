@@ -1166,7 +1166,9 @@ section,
   margin-bottom: 15px;
   border-radius: 20%;
   height: 200px;
-  object-fit: cover;
+  object-fit: fill;
+  overflow: hidden;
+  width: 100%;
 }
 
 .menu .tab-content .menu-item h4 {
